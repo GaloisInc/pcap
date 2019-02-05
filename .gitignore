@@ -1,0 +1,8 @@
+.stack-work/
+autom4te.cache/
+config.log
+config.status
+configure
+include/pcapconfig.h
+include/pcapconfig.h.in
+pcap.buildinfo
