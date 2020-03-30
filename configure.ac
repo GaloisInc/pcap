@@ -6,7 +6,7 @@ AC_ARG_WITH(compiler,
   compiler="$withval",
   compiler=ghc)dnl
 
-AC_CONFIG_HEADER(include/pcapconfig.h)
+# AC_CONFIG_HEADER(include/pcapconfig.h)
 
 AC_CHECK_MEMBERS([struct sockaddr.sa_len])
 

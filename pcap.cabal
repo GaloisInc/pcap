@@ -11,7 +11,7 @@ bug-reports:     https://github.com/bos/pcap/issues
 category:        Network
 cabal-version:   >= 1.8
 extra-source-files:
-                 configure.ac configure include/pcapconfig.h.in
+                 configure.ac configure
                  pcap.buildinfo.in README.markdown CHANGELOG.md
                  examples/example.hs
 extra-tmp-files: config.log config.status
@@ -35,8 +35,7 @@ library
   ghc-options:     -Wall -funbox-strict-fields
 
   include-dirs:    include
-  includes:        pcapconfig.h pcap.h
-  install-includes: pcapconfig.h
+  includes:        pcap.h
 
 source-repository head
   type:     git
